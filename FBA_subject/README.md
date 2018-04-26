@@ -1,12 +1,12 @@
 ## FBA Subjects
 We created two models for the FBA subject.  
-The easiest way to use these tools is to install the KBase SDK [fba_tools module](https://github.com/cshenry/fba_tools).  The custom genomic model files are stored in ./test_local/workdir/fbafiles/tmp/ in the fba_tools SDK code.  We can not include all the model files as they generate a unique filepath, but they can be created with the media **CDG.media.tsv** and the genome is **Ecoli_genome.json**.  The configuration parameters we adjust are stored in the model file ./test_local/workdir/fbafiles/tmp/SpecializedParameters.txt.  We include the default example in the repo.
+The easiest way to use these tools is to install the KBase SDK [fba_tools module](https://github.com/cshenry/fba_tools).  The custom genomic model files are stored in ./test_local/workdir/fbafiles/tmp/ in the fba_tools SDK code.  We can not include all the model files as they generate a unique filepath, but they can be created with the media **CDG.media.tsv** and the genome is **Ecoli_genome.json**.  The configuration options we adjust are stored in the model file ./test_local/workdir/fbafiles/tmp/SpecializedParameters.txt.  We include the default example in the repo.
 
 #### MFA Model
-The first (MFA) includes advanced parameters available from the [open source standalone version](https://github.com/cshenry/fba_tools/tree/master/MFAToolkit) of the FBA software in KBase.
+The first (MFA) includes advanced configuration options available from the [open source standalone version](https://github.com/cshenry/fba_tools/tree/master/MFAToolkit) of the FBA software in KBase.
 
 #### GUI Model
-The seconds (GUI) model includes a subset of the MFA configuration parameters that are available within the [GUI narrative online in KBase](https://narrative.kbase.us/#catalog/apps/fba_tools/run_flux_balance_analysis/release).
+The seconds (GUI) model includes a subset of the MFA configuration options that are available within the [GUI narrative online in KBase](https://narrative.kbase.us/#catalog/apps/fba_tools/run_flux_balance_analysis/release).
 
 ## Complete Configuration Models
 ![Model](FBAMFA_Model.png)
