@@ -13,7 +13,7 @@ The seconds (GUI) model includes a subset of the MFA configuration options that 
 ![Model](FBAGUI_Model.png)
 
 ## Sampling Results
-We generated 30 covering arrays of strength 2 and 30 covering arrays of strength 3 using CASA.  We also used ACTS to generate higher strength covering arrays of strengths 4, 5 and 6.  In ACTS the resulting CAs are deterministic so we have 1 run of each strength.
+We generated 30 covering arrays of strength 2 and 30 covering arrays of strength 3 using CASA.  We also used ACTS to generate higher strength covering arrays of strengths 4, 5, and 6.  In ACTS the resulting CAs are deterministic so we have 1 run of each strength.
 
 **MFA:**     In sampling for the functional output we see that a 2-way CA only achieves 3 unique objective values compared to the 39 we saw in our large (125,000) sample.  We don't see at least half these unique OVs until we scale up to a 5-way CA.  Similarly, if we analyze the samples for errors we don't consistently see all 5 errors until the 4-way CA.  This tells us that these scientific software systems have higher order interactions than traditional software systems where we tend to see interactions at low levels (2 or 3).  The Option-Wise testing method only captured 5 unique OVs and only 1 of the errors.
 
