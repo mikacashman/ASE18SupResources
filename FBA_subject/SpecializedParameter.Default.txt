@@ -1,0 +1,47 @@
+Reactions use variables|0|Specialized parameters
+find tight bounds|0|Specialized parameters
+flux minimization|0|Specialized parameters
+MFASolver|GLPK|Specialized parameters
+output folder|tmp/|Specialized parameters
+Make all reactions reversible in MFA|0|Specialized parameters
+maximize active reactions|0|Specialized parameters
+Constrain objective to this fraction of the optimal value|0.1|Specialized parameters
+fit phenotype data|0|Specialized parameters
+exchange species|cpd11416_c0[c]:-10000:0|Specialized parameters
+uptake limits|none|Specialized parameters
+save phenotype fluxes|0|Specialized parameters
+Recursive MILP solution limit|1|Specialized parameters
+database root output directory|/kb/module/work/fbafiles//|Specialized parameters
+Reactions to knockout|none|Specialized parameters
+metabolites to optimize|REACTANTS;bio1|Specialized parameters
+Default min drain flux|-1000|Specialized parameters
+os|linux|Specialized parameters
+Max deltaG|10000|Specialized parameters
+Default max drain flux|0|Specialized parameters
+database spec file|/kb/module/work/fbafiles/tmp/StringDBFile.txt|Specialized parameters
+use simple variable and constraint names|1|Specialized parameters
+write LP file|0|Specialized parameters
+Min flux|-1000|Specialized parameters
+calculate reaction knockout sensitivity|0|Specialized parameters
+use database fields|1|Specialized parameters
+Min flux multiplier|1|Specialized parameters
+new fba pipeline|1|Specialized parameters
+determine minimal required media|0|Specialized parameters
+perform MFA|1|Specialized parameters
+objective|MAX;FLUX;bio1;c;1|Specialized parameters
+create file on completion|FBAComplete.txt|Specialized parameters
+Add use variables for any drain fluxes|0|Specialized parameters
+Decompose reversible drain fluxes|0|Specialized parameters
+FBA experiment file|none|Specialized parameters
+Decompose reversible reactions|0|Specialized parameters
+write variable key|1|Specialized parameters
+perl directory|/usr/bin/perl|Specialized parameters
+minimum_target_flux|0.01|Specialized parameters
+Max flux|1000|Specialized parameters
+user bounds filename|CDG.media|Specialized parameters
+deltagslack|10|Specialized parameters
+scip executable|scip|Specialized parameters
+optimize metabolite production if objective is zero|1|Specialized parameters
+database root input directory|/kb/module/work/fbafiles/tmp/|Specialized parameters
+Genes to knockout|none|Specialized parameters
+Force use variables for all reactions|1|Specialized parameters
