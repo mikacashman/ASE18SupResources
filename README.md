@@ -1,4 +1,6 @@
-#### This repository contains data for the ASE 2018 submitted paper entitled: Navigating the Maze: the Impact of Configurability in Bioinformatics Software.  Due to the blind review process this will remain anonymous.
+#### This repository contains data for the ASE 2018 paper entitled: Navigating the Maze: the Impact of Configurability in Bioinformatics Software.
+* Authors: Mikaela Cashman, Myra B. Cohen, Priya Ranjan, and Robert Cotingham
+
 
 ### Contents 
 This repository contains data for the three subjects presented in the paper: BLAST, MEGAHIT, and FBA (both GUI and MFA).
